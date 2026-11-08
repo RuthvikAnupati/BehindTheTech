@@ -1,11 +1,3 @@
-## System Architecture
-
-The following diagram illustrates a conceptual architecture
-for understanding real-time driver availability using GPS,
-geospatial indexing, event streaming, and driver matching.
-
-
-
 # How Uber Understands Driver Availability Across Different Geographical Areas in Real Time
 
 ## 1. Introduction
@@ -37,6 +29,14 @@ This raises several interesting engineering questions:
 While exploring these questions, I came across an interesting technology developed by Uber: **H3 – Hexagonal Hierarchical Geospatial Indexing System.**
 
 This documentation explores the concepts and technologies that can be used to understand how a large-scale, real-time ride-hailing platform works.
+
+## System Architecture
+
+The following diagram illustrates a conceptual architecture
+for understanding real-time driver availability using GPS,
+geospatial indexing, event streaming, and driver matching.
+
+![Uber Architecture](images/uber-real-time-driver-availability.png)
 
 ---
 
